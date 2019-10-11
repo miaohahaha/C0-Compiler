@@ -1,0 +1,9 @@
+void fun1(){
+    int a;
+    a=1;
+}
+
+void main(){
+    fun(1+2);
+    a=a+1;
+}

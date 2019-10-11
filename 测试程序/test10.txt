@@ -1,0 +1,7 @@
+int fun(){
+    printf("func1");
+
+void main(){
+    int S[10];
+    fun();
+  

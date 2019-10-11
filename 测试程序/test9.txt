@@ -1,0 +1,12 @@
+const int A=0;
+int fun(char a){
+    return (1);
+}
+void main(){
+    int A;
+    int A[10];
+    char S[11];
+    S[1]='a';
+    S[0]=fun(A);
+}
+

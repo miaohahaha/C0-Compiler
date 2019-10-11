@@ -1,0 +1,11 @@
+f main  void
+v a  int
+g $t0 0 
+k a  $t0
+e $t1 a 
+g $t2 11 
++ $t1 $t1 $t2
+k a  $t1
+r return  
+main 2 25 0 1 
+a 1 23 0 1 

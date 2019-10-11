@@ -1,0 +1,28 @@
+const int Max = 20, Min=0;
+const char CHAR_A='A', char_b='b';
+char String[3];
+int Num[2], len;
+void fun3(){
+	int k;
+	k=0;
+    String[0]='a';
+    String[1]='b';
+    String[2]='c';
+    Num[0]='a'+1;
+    Num[1]='b'+1;
+	while(k<3){
+		printf(String[k]);
+        k=k+1;
+		if (k!=3){
+			printf(Num[k]);
+		}
+	}
+        len=k;
+		printf(k);
+		printf(Max+CHAR_A);
+		printf(Min-char_b);
+		printf(Max);
+}
+void main(){
+fun3();
+    }

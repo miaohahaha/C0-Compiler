@@ -1,0 +1,9 @@
+void main
+var int a
+$t0 = 0
+a = $t0
+$t1 = a
+$t2 = 11
+$t1 = $t1 + $t2
+a = $t1
+return 

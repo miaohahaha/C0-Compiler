@@ -1,0 +1,20 @@
+void fun2(int k1, int k2) {
+	char op;
+	int S;
+	printf("please input op:");
+	scanf(op);
+	switch (op)
+	{
+	case '+' : S = k1 + k2;
+	case '-' : S = k1 - k2;
+	case '/' : S = k1 / k2;
+	case '*' : S = k1 * k2;
+	default: S=-0;
+	}
+	printf("The result is", S);
+}
+void main(){
+    int k1, k2;
+    scanf(k1, k2);
+    fun2(k1, k2);
+}

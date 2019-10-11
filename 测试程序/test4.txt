@@ -1,0 +1,29 @@
+char fun4(int n, char flag){
+    const int Max=20;
+    int N[30], i;
+    if (n<Max){
+        i=0;
+		while(i<n){
+			if (i>3){
+				N[i] = N[i - 1] * (N[i - 2] - 2*N[0]);
+			}
+			if (i<=3){
+				N[i]=i*(Max-5)+1;
+			}
+			i=i+1;
+		}
+	}
+	printf(N[i-2]);
+    if (flag=='a'){
+		return('a');
+}
+if (flag != 'a'){
+    return('b');
+}
+}
+void main(){
+    const int m=15;
+	const char flag='a';
+	printf(fun4(m,flag));
+    printf(fun4(m-5,'b'));
+} 

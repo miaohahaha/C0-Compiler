@@ -1,0 +1,17 @@
+int fun(int n){
+    n=n+2;
+}
+char fun1(){
+    return('a');
+}
+void func2(){
+    int i;
+    i=0;
+}
+void main(){
+    char a;
+    int n;
+    n=1;
+    a=fun(n);
+    a=fun1()+1;
+}
